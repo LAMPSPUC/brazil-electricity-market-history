@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lampspuc.github.io/brazil-electricity-market-history/sitemap.xml
