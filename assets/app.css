@@ -394,6 +394,7 @@ figure { margin: 0; }
 .ext[target="_blank"]::after { content: "\2197"; font-family: var(--ui); font-size: .78em; margin-left: .12em; text-decoration: none; display: inline-block; }
 .book-foot { margin-top: 6em; padding-top: 1.5em; border-top: 1px solid var(--rule); font-family: var(--ui); font-size: .88rem; color: var(--ink-3); display: flex; flex-wrap: wrap; gap: .4rem 1.6rem; }
 .book-foot p { margin: 0; }
+.book-foot .rights { flex-basis: 100%; max-width: 46em; font-size: .82rem; line-height: 1.5; }
 
 /* ------------------------------------------------------------ reading modes */
 [data-mode="abstracts"] .article:not(.reveal) .article-body { display: none; }

@@ -66,6 +66,10 @@ Replace the files of the working copy with the new version, then `git add -A`, `
 
 If the repository or organization is renamed, or a custom domain is used (**Settings → Pages → Custom domain**, with a `CNAME` record at the domain's DNS pointing to `lampspuc.github.io`), the full address in the canonical links, the share-image addresses, `sitemap.xml` and `robots.txt` must be updated to match.
 
+## Licence
+
+All rights reserved. The book may be read on the site and in the PDF editions for personal use only; it may not be copied, printed, distributed or sold, in whole or in part, without written permission. The full notice, in the four languages, is in `LICENSE.md`. The fonts in `assets/fonts/` keep their own licence (below).
+
 ## Fonts
 
 Literata, Source Sans 3, Atkinson Hyperlegible, Noto Serif SC and Noto Sans SC are served from `assets/fonts/` (woff2, split by character range, so a page downloads only the parts it uses); the site makes no request to any other server. The fonts are licensed under the SIL Open Font License 1.1; the licence of each family is in the same folder. Until a font arrives, text shows in a system font with the same proportions. Some browsers do not load fonts for pages opened straight from the disk; they use the system fonts there, and the published site is not affected.
