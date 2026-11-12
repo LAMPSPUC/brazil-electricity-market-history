@@ -513,7 +513,7 @@ dialog::backdrop { background: rgba(15, 14, 12, .36); -webkit-backdrop-filter: b
 .landing-main > * { max-width: none; }
 .landing-head { max-width: 46rem; margin-bottom: 3rem; }
 .landing .hero-title { font-size: clamp(2rem, 1.3rem + 2.6vw, 3.1rem); }
-.editions { display: grid; grid-template-columns: repeat(auto-fit, minmax(16.5rem, 1fr)); gap: 0 2.2rem; border-top: 1px solid var(--rule-2); }
+.editions { display: grid; grid-template-columns: repeat(auto-fit, minmax(13.5rem, 1fr)); gap: 0 2rem; border-top: 1px solid var(--rule-2); }
 .ed-card { padding: 1.6rem 0 1.8rem; border-bottom: 1px solid var(--rule); display: flex; flex-direction: column; }
 .ed-cover { display: block; width: 9rem; margin: 0 0 1.2rem; }
 .ed-cover img { display: block; width: 100%; height: auto; box-shadow: 0 0 0 1px rgba(51,40,28,.08), 0 2px 4px rgba(51,40,28,.10), 0 8px 20px rgba(51,40,28,.12); }

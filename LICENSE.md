@@ -2,9 +2,9 @@
 
 © 2026 Alexandre Street
 
-**Português.** Todos os direitos reservados. Este livro pode ser lido on-line e em suas edições em PDF, apenas para uso pessoal. Não pode ser copiado, impresso, distribuído ou vendido, no todo ou em parte, sem autorização por escrito. Citações breves, com a referência completa, são bem-vindas.
-
 **English.** All rights reserved. This book may be read online and in its PDF editions for personal use only. It may not be copied, printed, distributed or sold, in whole or in part, without written permission. Brief quotations with full citation are welcome.
+
+**Português.** Todos os direitos reservados. Este livro pode ser lido on-line e em suas edições em PDF, apenas para uso pessoal. Não pode ser copiado, impresso, distribuído ou vendido, no todo ou em parte, sem autorização por escrito. Citações breves, com a referência completa, são bem-vindas.
 
 **Español.** Todos los derechos reservados. Este libro puede leerse en línea y en sus ediciones en PDF, solo para uso personal. No puede copiarse, imprimirse, distribuirse ni venderse, total o parcialmente, sin autorización por escrito. Las citas breves, con la referencia completa, son bienvenidas.
 

@@ -1,6 +1,6 @@
 # A Short History of the Brazilian Electricity Market and the Loss of Flexibility
 
-Web edition in four languages (Português, English, Español, 中文), with the PDF editions in `downloads/`.
+Web edition in four languages (English, Português, Español, 中文), with the PDF editions in `downloads/`.
 
 Address: https://lampspuc.github.io/brazil-electricity-market-history/
 
@@ -13,7 +13,7 @@ index.html              landing page: the four editions and the PDFs
 pt/ en/ es/ zh/         one page per edition
 assets/                 style sheet, script, search indexes, figures, share images
 assets/fonts/           web fonts (woff2) and their licences
-downloads/              PDF editions (English, Portuguese, Spanish)
+downloads/              PDF editions (English, Portuguese, Spanish, Chinese)
 sitemap.xml robots.txt  for search engines
 .nojekyll               tells GitHub Pages to publish the files as they are
 ```
