@@ -228,6 +228,7 @@ html[lang="zh-Hans"] main h1, html[lang="zh-Hans"] main h2, html[lang="zh-Hans"]
 
 /* ------------------------------------------------------------ hero */
 .hero { padding: 4.5rem 0 2.5rem; }
+.hero-cover { display: block; width: 13rem; height: auto; margin: 0 0 2.2rem; box-shadow: 0 0 0 1px rgba(51,40,28,.08), 0 2px 4px rgba(51,40,28,.10), 0 10px 28px rgba(51,40,28,.14); }
 .hero-author { font-family: var(--ui); font-size: .8rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--accent-ink); margin: 0 0 1.4rem; }
 .hero-title { font-family: var(--serif); font-weight: 560; font-size: 2.1em; line-height: 1.12; letter-spacing: -.012em; margin: 0 0 .5em; text-wrap: balance; color: var(--ink); }
 .hero-subtitle { font-style: italic; color: var(--ink-2); font-size: 1.15em; margin: 0 0 1.6em; }
@@ -500,6 +501,7 @@ dialog::backdrop { background: rgba(15, 14, 12, .36); -webkit-backdrop-filter: b
   .settings::backdrop { background: rgba(15, 14, 12, .36); }
   .sheet-grip { display: block; width: 2.6rem; height: 4px; border-radius: 4px; background: var(--rule-2); margin: -.3rem auto .8rem; }
   .hero { padding-top: 2.6rem; }
+  .hero-cover { width: 10rem; margin-bottom: 1.8rem; }
   .hero-title { font-size: 1.75em; }
   .chapter-title { font-size: 1.65em; }
   .article-title { font-size: 1.4em; }
@@ -513,6 +515,8 @@ dialog::backdrop { background: rgba(15, 14, 12, .36); -webkit-backdrop-filter: b
 .landing .hero-title { font-size: clamp(2rem, 1.3rem + 2.6vw, 3.1rem); }
 .editions { display: grid; grid-template-columns: repeat(auto-fit, minmax(16.5rem, 1fr)); gap: 0 2.2rem; border-top: 1px solid var(--rule-2); }
 .ed-card { padding: 1.6rem 0 1.8rem; border-bottom: 1px solid var(--rule); display: flex; flex-direction: column; }
+.ed-cover { display: block; width: 9rem; margin: 0 0 1.2rem; }
+.ed-cover img { display: block; width: 100%; height: auto; box-shadow: 0 0 0 1px rgba(51,40,28,.08), 0 2px 4px rgba(51,40,28,.10), 0 8px 20px rgba(51,40,28,.12); }
 .ed-card.is-preferred { box-shadow: inset 0 3px 0 var(--accent); }
 .ed-lang { font-family: var(--ui); font-weight: 600; font-size: .8rem; letter-spacing: .1em; text-transform: uppercase; color: var(--accent-ink); margin: 0 0 .8rem; display: flex; gap: .6rem; align-items: center; }
 .ed-pref { font-size: .68rem; letter-spacing: .06em; background: var(--accent); color: var(--on-accent); border-radius: 999px; padding: .1rem .55rem; }
