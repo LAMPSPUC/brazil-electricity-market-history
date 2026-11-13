@@ -68,7 +68,7 @@ If the repository or organization is renamed, or a custom domain is used (**Sett
 
 ## Licence
 
-All rights reserved. The book may be read on the site and in the PDF editions for personal use only; it may not be copied, printed, distributed or sold, in whole or in part, without written permission. The full notice, in the four languages, is in `LICENSE.md`. The fonts in `assets/fonts/` keep their own licence (below).
+© 2026 Alexandre Street de Aguiar. All rights reserved. This book is free. It may be read online and downloaded in PDF for personal use. Commercial reproduction, in whole or in part and by any means, is prohibited; any other reproduction requires the author's written permission. Brief quotations with full citation are welcome. Last updated 13 November 2026. The full notice, in the four languages, is in `LICENSE.md`. The fonts in `assets/fonts/` keep their own licence (below).
 
 ## Fonts
 
