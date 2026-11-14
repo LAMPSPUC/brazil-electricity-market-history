@@ -227,14 +227,19 @@ html[lang="zh-Hans"] main h1, html[lang="zh-Hans"] main h2, html[lang="zh-Hans"]
 }
 
 /* ------------------------------------------------------------ hero */
+/* opening of an edition: author, title and subtitle; the whole cover; the description; one row of actions;
+   the topic browser */
 .hero { padding: 4.5rem 0 2.5rem; }
-.hero-cover { display: block; width: 13rem; height: auto; margin: 0 0 2.2rem; box-shadow: 0 0 0 1px rgba(51,40,28,.08), 0 2px 4px rgba(51,40,28,.10), 0 10px 28px rgba(51,40,28,.14); }
+.hero-cover { display: block; width: min(30rem, 100%); height: auto; margin: 0 0 2.8rem; border-radius: 2px; box-shadow: 0 0 0 1px rgba(51,40,28,.08), 0 2px 4px rgba(51,40,28,.10), 0 14px 36px rgba(51,40,28,.16); }
 .hero-author { font-family: var(--ui); font-size: .8rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--accent-ink); margin: 0 0 1.4rem; }
 .hero-title { font-family: var(--serif); font-weight: 560; font-size: 2.1em; line-height: 1.12; letter-spacing: -.012em; margin: 0 0 .5em; text-wrap: balance; color: var(--ink); }
-.hero-subtitle { font-style: italic; color: var(--ink-2); font-size: 1.15em; margin: 0 0 1.6em; }
+.hero-subtitle { font-style: italic; color: var(--ink-2); font-size: 1.15em; margin: 0 0 2.4rem; text-wrap: balance; }
 .hero-desc { color: var(--ink-2); font-size: .98em; margin: 0 0 2em; padding-top: 1.6em; border-top: 1px solid var(--rule); }
-.hero-mode { margin: 0 0 1.4rem; font-size: 1rem; }
-.hero-dl { font-size: 1rem; margin: 0 0 2.5rem; display: flex; flex-wrap: wrap; gap: .6rem 1.4rem; }
+.hero-cover + .hero-desc { padding-top: 0; border-top: 0; }
+.hero-actions { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .9rem 1.6rem; margin: 0 0 2.6rem; }
+.hero-mode { margin: 0; font-size: 1rem; }
+.hero-dl { font-size: 1rem; margin: 0; display: flex; flex-wrap: wrap; gap: .6rem 1.4rem; }
+.hero .topics-panel { padding-top: 1.9rem; border-top: 1px solid var(--rule); }
 html[lang="zh-Hans"] .hero-subtitle { font-style: normal; }
 
 /* segmented controls */
@@ -502,8 +507,9 @@ dialog::backdrop { background: rgba(15, 14, 12, .36); -webkit-backdrop-filter: b
   .settings::backdrop { background: rgba(15, 14, 12, .36); }
   .sheet-grip { display: block; width: 2.6rem; height: 4px; border-radius: 4px; background: var(--rule-2); margin: -.3rem auto .8rem; }
   .hero { padding-top: 2.6rem; }
-  .hero-cover { width: 10rem; margin-bottom: 1.8rem; }
   .hero-title { font-size: 1.75em; }
+  .hero-subtitle { margin-bottom: 1.9rem; }
+  .hero-cover { margin-bottom: 2.2rem; }
   .chapter-title { font-size: 1.65em; }
   .article-title { font-size: 1.4em; }
 }
